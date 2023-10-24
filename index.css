@@ -1,0 +1,567 @@
+*{
+    margin:0;
+    padding:0;
+    
+}
+
+body{
+    margin:0;
+    padding:0;
+    background-color: black;
+}
+
+/*cabeza de pagina*/
+header{
+    padding:10px;
+    text-align:center;
+    background-color: #333;
+    position:fixed;
+    top:0;
+    left:0;
+    width: 100%;
+    box-shadow: 0 2px 5px;
+    z-index:100;
+    margin: 0 0 40 0 ;
+}
+
+.logo{
+    display:flex;
+    float:right;
+    margin:0 5px 0 0;
+}
+
+.logo img{
+    width: 50px;
+    height:50px;
+    padding:0;
+    margin:0;
+   border-radius:100%;
+}
+
+.titulo{
+    display: flex;
+    text-align: center;
+    color:white;
+    font-size: 35px;
+    font-weight: 10px;
+    justify-content: center;
+    text-decoration: none;
+    margin:10px 0 0 20px;
+}
+
+.titulo a:hover{
+    color:aqua ;
+}
+
+.titulo{
+    margin:8px;
+}
+
+/*barra de navegasion*/
+ul{
+    list-style:none;
+    padding:0;
+    margin:0;
+}
+
+nav{
+    background-color:#333;
+    height:50px;
+}
+
+nav ul li {
+    display:inline;
+    margin-right:20px ;
+}
+
+nav ul li a {
+    text-decoration:none;
+    color:white;
+    font-weight: 10px;
+}
+
+nav ul li a:hover{
+    color:aqua ;
+/* #814417 */
+}
+
+.hola{
+    font-size: 20px;
+}
+
+/*buscador*/
+.container-input {
+    position: absolute;
+  }
+  
+  .input {
+    width: 150px;
+    padding: 10px 0px 10px 40px;
+    border-radius: 9999px;
+    border: solid 1px #333;
+    transition: all .2s ease-in-out;
+    outline: none;
+    opacity: 0.8;
+  }
+  
+  .container-input svg {
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    transform: translate(0, -50%);
+  }
+  
+  .input:focus {
+    opacity: 1;
+    width: 250px;
+  }
+
+  .objetos{
+    position: absolute;
+    margin: 40px;
+    background-color: #333;
+  }
+
+  .results a{
+    color: white;
+    text-decoration: none;
+  }
+
+  .results a:hover{
+    color: aqua;
+  }
+
+  .search-item {
+    display: none;
+}
+
+.hola1{
+    font-size: 15px;
+}
+
+
+
+
+/*informacion de la pagina*/
+/*section 1 */
+.s1{
+    width: 100%;
+    height:100%;
+    background-color: white;
+    padding:10px;
+}
+
+
+.card {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    
+    margin:350px 0 0 0;
+}
+
+.imagen{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background-color: gray;
+    float: right;
+    height: 500px;
+    width: 700px;
+    padding: 100px 50px 100px 0;
+    margin:100px 50px 100px 0;
+    transition: 0.5s;
+}
+/*
+.imagen:hover{
+    transform:scale(0.5)
+}
+*/
+.imagen img{
+    width: 500px;
+    height:500px;
+}
+
+.card h2 p{
+    float:left;
+}
+
+.info h2 {
+    text-align: center;
+    margin:20px;
+}
+
+.info p{
+    text-align: center;
+}
+
+
+
+.info{
+    padding:50px 50px 50px 50px;
+}
+
+/*seccion 2 */
+.s2{
+    width: 100%;
+    height:100%;
+    background-color: black;
+    padding:10px;
+}
+
+
+.card2 {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    
+    margin:350px 0 0 0;
+}
+
+.imagen2{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background-color: gray;
+    float: left;
+    height: 500px;
+    width: 700px;
+    padding: 100px 0 100px 50px;
+    margin:100px 0 100px 50px;
+}
+
+.imagen2 img{
+    width: 500px;
+    height:500px;
+}
+
+.card2 h2 p{
+    float:right;
+   
+}
+
+.info2 h2 {
+    text-align: center;
+    color:white;
+    margin:20px;
+}
+
+.info2 p{
+    text-align: center;
+    color:white;
+}
+
+.info2{
+    padding:50px 50px 50px 50px;
+}
+
+
+/*seccion3*/
+.s3{
+    width: 100%;
+    height:100%;
+    background-color: white;
+    padding:10px;
+}
+
+
+.card3 {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    
+    margin:350px 0 0 0;
+}
+
+.imagen3{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background-color: gray;
+    float: right;
+    height: 500px;
+    width: 700px;
+    padding: 100px 50px 100px 0;
+    margin:100px 50px 100px 0;
+}
+
+.imagen3 img{
+    width: 500px;
+    height:500px;
+}
+
+.card3 h2 p{
+    float:left;
+}
+
+.info3 h2 {
+    text-align: center;
+    margin:20px;
+    
+}
+
+.info3 p{
+    text-align: center;
+    
+}
+
+.info3{
+    padding:50px 50px 50px 50px;
+}
+
+ol{
+    text-align: center;
+}
+
+li a {
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: 10px;
+    color:black;
+}
+
+li a:hover {
+    color:brown;
+}
+/*contenedor*/
+.container{
+    display:flex;
+    align-items: center;
+    align-items:center;
+    margin:50px;
+    flex-direction:column;
+    margin:100px 0 0 0 ;
+}
+
+
+/*pie de pagina*/
+/* footer */
+
+footer{
+    padding:50px;
+}
+
+footer p {
+    color: white;
+  }
+  .redes ul {
+    padding:0;
+    margin:0;
+  }
+  
+  .redes li{
+    display:inline;
+  }
+  
+  .redes{
+    display:flex;
+    justify-content: center;
+  }
+  .redes{
+    float:right;
+  }
+
+/* botones de redes sociales  */
+/* boton1 */
+.button1 {
+    position: relative;
+    width: 130px;
+    height: 35px;
+    border-radius: 30px;
+    background-color: white;
+    border: 1px #3a5ba2 solid;
+    overflow: hidden;
+  }
+  
+  .text1 {
+    font-size: 15px;
+    font-weight: 600;
+    margin-left: 22%;
+    color: black;
+  }
+  
+  .text2 {
+    position: absolute;
+    top: 25%;
+    left: -50px;
+    font-weight: 700;
+    font-size: 14px;
+    color: white;
+  }
+  
+  .icon1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: transform 0.5s;
+  }
+  
+  .icon1::before {
+    position: absolute;
+    left: -100px;
+    top: 0;
+    z-index: -1;
+    content: '';
+    width: 130px;
+    height: 33px;
+    border-radius: 30px;
+    background-color: #3a5ba2;
+  }
+  
+  .button1:hover .icon1 {
+    transform: translateX(96px);
+    transition: transform 0.5s;
+  }
+  
+  .button1:hover .text2 {
+    transform: translateX(100px);
+    transition: transform 0.6s;
+  }
+  
+  .button1:active {
+    transform: scale(1.03);
+  }
+
+  .button1:hover{
+    cursor: pointer;
+  }
+  
+  /* boton2 */
+  .button2 {
+  position: relative;
+  width: 130px;
+  height: 35px;
+  border-radius: 30px;
+  background-color: white;
+  border: 1px #FFB700 solid;
+  overflow: hidden;
+}
+
+.text3 {
+  font-size: 15px;
+  font-weight: 600;
+  margin-left: 22%;
+  color: black;
+}
+
+.text4 {
+  position: absolute;
+  top: 25%;
+  left: -50px;
+  font-weight: 700;
+  font-size: 14px;
+  color: white;
+}
+
+.icon2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: transform 0.5s;
+}
+
+.icon2::before {
+  position: absolute;
+  left: -100px;
+  top: 0;
+  z-index: -1;
+  content: '';
+  width: 130px;
+  height: 33px;
+  border-radius: 30px;
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+  ;
+}
+
+.button2:hover .icon2 {
+  transform: translateX(96px);
+  transition: transform 0.5s;
+}
+
+.button2:hover .text4 {
+  transform: translateX(100px);
+  transition: transform 0.6s;
+}
+
+.button2:active {
+  transform: scale(1.03);
+}
+
+.button2:hover{
+  cursor: pointer;
+}
+
+/* boton3 */
+.button3 {
+  position: relative;
+  width: 130px;
+  height: 35px;
+  border-radius: 30px;
+  background-color: white;
+  border: 1px #000000 solid;
+  overflow: hidden;
+}
+
+.text5 {
+  font-size: 17px;
+  font-weight: 700;
+  margin-left: 22%;
+}
+
+.text6 {
+  position: absolute;
+  top: 25%;
+  left: -50px;
+  font-weight: 700;
+  font-size: 14px;
+  color: white;
+}
+
+.icon3 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: transform 0.5s;
+}
+
+.icon3::before {
+  position: absolute;
+  left: -100px;
+  top: 0;
+  z-index: -1;
+  content: '';
+  width: 130px;
+  height: 33px;
+  border-radius: 30px;
+  background-color: #000000;
+}
+
+.icon3::after {
+  position: absolute;
+  left: 0.5px;
+  top: 0.5px;
+  z-index: -1;
+  content: '';
+  width: 32px;
+  height: 32px;
+  border-radius: 100%;
+  background-color: white;
+}
+
+.button3:hover .icon3 {
+  transform: translateX(97.5px);
+  transition: transform 0.5s;
+}
+
+.button3:hover .text6 {
+  transform: translateX(100px);
+  transition: transform 0.6s;
+}
+
+.button3:active {
+  transform: scale(1.03);
+}
+
+.button3:hover{
+  cursor: pointer;
+}
